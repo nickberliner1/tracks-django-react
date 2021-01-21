@@ -73,7 +73,7 @@ export default class Grid extends React.Component {
 
     componentDidMount() {
         // fetch(`https://raw.githubusercontent.com/nickberliner1/tracks-data/master/shipments-2.json`)
-        fetch(`https://localhost:8000/shipments`)
+        fetch(`http://localhost:8000/shipments`)
             .then(result => result.json())
             .then(rowData => this.setState({rowData}));
     }
