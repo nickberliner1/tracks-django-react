@@ -1,5 +1,5 @@
 """
-WSGI config for tracks_testsite project.
+WSGI config for tracks_site project.
 
 It exposes the WSGI callable as a module-level variable named ``application``.
 
@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tracks_testsite.settings')
+os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'tracks_site.settings')
 
 application = get_wsgi_application()
