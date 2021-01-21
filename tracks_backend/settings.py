@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware' # API package stuff
 ]
 
-ROOT_URLCONF = 'tracks_site.urls'
+ROOT_URLCONF = 'tracks_backend.urls'
 
 TEMPLATES = [
     {
@@ -72,7 +72,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'tracks_site.wsgi.application'
+WSGI_APPLICATION = 'tracks_backend.wsgi.application'
 
 
 # Database
